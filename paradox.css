@@ -1,0 +1,54 @@
+.body{
+    background-image: url('my_logo.png');
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px black;
+    border-color: rgb(63, 111, 63);
+}
+.header{
+    border-radius: 50px;
+    background-color: rgb(50, 110, 50);
+    overflow: hidden;
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 4px 8px  black;
+
+}
+.footer{
+    border-radius: 25px;
+    background-color: rgb(50, 110, 50);
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 4px 8px  black;
+    overflow: hidden;
+}
+.costumer-support{
+    width: 2cm;
+    height: 2cm;
+}
+.nav-button1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: thistle;
+    width: 4cm;
+    height: 4cm;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 0;
+
+}
+.nav-button2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: thistle;
+    width: 4cm;
+    height: 4cm;
+    border-radius: 50%;
+    overflow: hidden;
+    top: 100%;
+    left: 8cm;
+}
